@@ -20,7 +20,6 @@ setUser(intialFOrmstate)
         <label>Username</label>
         <input type="text" name="username" value={user.username} onChange={handleInputChange} />
         <button>Add new user</button>
-        
       </form>
      );
 }
